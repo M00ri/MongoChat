@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/M00ri/MongoChat/issues"
   },
-  "homepage": "https://github.com/M00ri/MongoChat#readme"
+  "homepage": "https://github.com/M00ri/MongoChat#readme",
+  "dependencies": {
+    "mongodb": "^3.1.10",
+    "socket.io": "^2.1.1"
+  }
 }
