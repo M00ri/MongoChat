@@ -1,0 +1,19 @@
+{
+  "name": "mongochat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M00ri/MongoChat.git"
+  },
+  "author": "M00ri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M00ri/MongoChat/issues"
+  },
+  "homepage": "https://github.com/M00ri/MongoChat#readme"
+}
