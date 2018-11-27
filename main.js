@@ -12,12 +12,12 @@ mongo.connect(
     console.log("MongoDB connected...");
 
     // Connct to Socket.io
-    client.on("connection", function() {
+    client.on("connection", function(socket) {
       let chat = db.collection("chats");
 
       // Create function to send status
       sendStatus = function(s) {
-        socket, emit("status", s);
+        socket.emit("status", s);
       };
 
       // Get chats from mongo collection
